@@ -1,0 +1,467 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.4
+2 info using node@v22.21.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/streamflow/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2026-01-11T04_04_35_658Z-
+10 verbose logfile /root/.npm/_logs/2026-01-11T04_04_35_658Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@babel/runtime': [ '7.28.4' ],
+15 silly audit   '@borewit/text-codec': [ '0.2.1' ],
+15 silly audit   '@ffmpeg-installer/darwin-arm64': [ '4.1.5' ],
+15 silly audit   '@ffmpeg-installer/darwin-x64': [ '4.1.0' ],
+15 silly audit   '@ffmpeg-installer/ffmpeg': [ '1.1.0' ],
+15 silly audit   '@ffmpeg-installer/linux-arm': [ '4.1.3' ],
+15 silly audit   '@ffmpeg-installer/linux-arm64': [ '4.1.4' ],
+15 silly audit   '@ffmpeg-installer/linux-ia32': [ '4.1.0' ],
+15 silly audit   '@ffmpeg-installer/linux-x64': [ '4.1.0' ],
+15 silly audit   '@ffmpeg-installer/win32-ia32': [ '4.1.0' ],
+15 silly audit   '@ffmpeg-installer/win32-x64': [ '4.1.0' ],
+15 silly audit   '@ffprobe-installer/darwin-arm64': [ '5.0.1' ],
+15 silly audit   '@ffprobe-installer/darwin-x64': [ '5.1.0', '5.0.0' ],
+15 silly audit   '@ffprobe-installer/ffprobe': [ '2.1.2', '1.4.1' ],
+15 silly audit   '@ffprobe-installer/linux-arm': [ '5.2.0', '5.0.0' ],
+15 silly audit   '@ffprobe-installer/linux-arm64': [ '5.2.0', '5.0.0' ],
+15 silly audit   '@ffprobe-installer/linux-ia32': [ '5.2.0', '5.0.0' ],
+15 silly audit   '@ffprobe-installer/linux-x64': [ '5.2.0', '5.0.0' ],
+15 silly audit   '@ffprobe-installer/win32-ia32': [ '5.1.0', '5.0.0' ],
+15 silly audit   '@ffprobe-installer/win32-x64': [ '5.1.0', '5.0.0' ],
+15 silly audit   '@gar/promisify': [ '1.1.3' ],
+15 silly audit   '@ioredis/commands': [ '1.5.0' ],
+15 silly audit   '@mapbox/node-pre-gyp': [ '1.0.11' ],
+15 silly audit   '@npmcli/fs': [ '1.1.1' ],
+15 silly audit   '@npmcli/move-file': [ '1.1.2' ],
+15 silly audit   mkdirp: [ '1.0.4', '0.5.6' ],
+15 silly audit   '@redis/client': [ '1.6.1' ],
+15 silly audit   '@tokenizer/inflate': [ '0.2.7' ],
+15 silly audit   '@tokenizer/token': [ '0.3.0' ],
+15 silly audit   '@tootallnate/once': [ '1.1.2' ],
+15 silly audit   '@tus/file-store': [ '2.0.0' ],
+15 silly audit   '@tus/server': [ '2.3.0' ],
+15 silly audit   '@tus/utils': [ '0.6.0' ],
+15 silly audit   '@videojs/http-streaming': [ '3.17.2' ],
+15 silly audit   '@videojs/vhs-utils': [ '4.1.1' ],
+15 silly audit   '@videojs/xhr': [ '2.7.0' ],
+15 silly audit   '@xmldom/xmldom': [ '0.8.11' ],
+15 silly audit   abbrev: [ '1.1.1' ],
+15 silly audit   accepts: [ '1.3.8' ],
+15 silly audit   'aes-decrypter': [ '4.0.2' ],
+15 silly audit   'agent-base': [ '6.0.2', '7.1.4' ],
+15 silly audit   agentkeepalive: [ '4.6.0' ],
+15 silly audit   'aggregate-error': [ '3.1.0' ],
+15 silly audit   'ansi-regex': [ '5.0.1' ],
+15 silly audit   anymatch: [ '3.1.3' ],
+15 silly audit   'append-field': [ '1.0.0' ],
+15 silly audit   aproba: [ '2.1.0' ],
+15 silly audit   'are-we-there-yet': [ '2.0.0', '3.0.1' ],
+15 silly audit   'readable-stream': [ '3.6.2', '2.3.8' ],
+15 silly audit   'array-flatten': [ '1.1.1' ],
+15 silly audit   async: [ '0.2.10', '3.2.6' ],
+15 silly audit   asynckit: [ '0.4.0' ],
+15 silly audit   axios: [ '1.13.2' ],
+15 silly audit   'balanced-match': [ '1.0.2' ],
+15 silly audit   'base64-js': [ '1.5.1' ],
+15 silly audit   bcrypt: [ '5.1.1' ],
+15 silly audit   'bignumber.js': [ '9.3.1' ],
+15 silly audit   'binary-extensions': [ '2.3.0' ],
+15 silly audit   bindings: [ '1.5.0' ],
+15 silly audit   bl: [ '4.1.0' ],
+15 silly audit   'body-parser': [ '1.20.4' ],
+15 silly audit   debug: [ '2.6.9', '4.4.3' ],
+15 silly audit   ms: [ '2.0.0', '2.1.3' ],
+15 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+15 silly audit   braces: [ '3.0.3' ],
+15 silly audit   buffer: [ '5.7.1' ],
+15 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+15 silly audit   'buffer-from': [ '1.1.2' ],
+15 silly audit   busboy: [ '1.6.0' ],
+15 silly audit   bytes: [ '3.1.2' ],
+15 silly audit   cacache: [ '15.3.0' ],
+15 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+15 silly audit   'call-bound': [ '1.0.4' ],
+15 silly audit   chokidar: [ '3.6.0' ],
+15 silly audit   chownr: [ '2.0.0', '1.1.4' ],
+15 silly audit   'clean-stack': [ '2.2.0' ],
+15 silly audit   'cluster-key-slot': [ '1.1.2' ],
+15 silly audit   'color-support': [ '1.1.3' ],
+15 silly audit   'combine-errors': [ '3.0.3' ],
+15 silly audit   'combined-stream': [ '1.0.8' ],
+15 silly audit   'concat-map': [ '0.0.1' ],
+15 silly audit   'concat-stream': [ '1.6.2' ],
+15 silly audit   'connect-sqlite3': [ '0.9.16' ],
+15 silly audit   'console-control-strings': [ '1.1.0' ],
+15 silly audit   'content-disposition': [ '0.5.4' ],
+15 silly audit   'content-type': [ '1.0.5' ],
+15 silly audit   cookie: [ '0.7.2' ],
+15 silly audit   'cookie-signature': [ '1.0.7' ],
+15 silly audit   'core-util-is': [ '1.0.3' ],
+15 silly audit   'cross-spawn': [ '7.0.6' ],
+15 silly audit   which: [ '2.0.2', '1.3.1' ],
+15 silly audit   csrf: [ '3.1.0' ],
+15 silly audit   'custom-error-instance': [ '2.1.1' ],
+15 silly audit   'decompress-response': [ '6.0.0' ],
+15 silly audit   'deep-extend': [ '0.6.0' ],
+15 silly audit   'delayed-stream': [ '1.0.0' ],
+15 silly audit   delegates: [ '1.0.0' ],
+15 silly audit   denque: [ '2.1.0' ],
+15 silly audit   depd: [ '2.0.0' ],
+15 silly audit   destroy: [ '1.2.0' ],
+15 silly audit   'detect-libc': [ '2.1.2' ],
+15 silly audit   'dom-walk': [ '0.1.2' ],
+15 silly audit   dotenv: [ '16.6.1' ],
+15 silly audit   'dunder-proto': [ '1.0.1' ],
+15 silly audit   duplexify: [ '4.1.3' ],
+15 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+15 silly audit   'ee-first': [ '1.1.1' ],
+15 silly audit   ejs: [ '3.1.10' ],
+15 silly audit   'ejs-mate': [ '4.0.0' ],
+15 silly audit   'emoji-regex': [ '8.0.0' ],
+15 silly audit   encodeurl: [ '2.0.0' ],
+15 silly audit   encoding: [ '0.1.13' ],
+15 silly audit   'iconv-lite': [ '0.6.3', '0.4.24' ],
+15 silly audit   'end-of-stream': [ '1.4.5' ],
+15 silly audit   'env-paths': [ '2.2.1' ],
+15 silly audit   'err-code': [ '2.0.3' ],
+15 silly audit   'es-define-property': [ '1.0.1' ],
+15 silly audit   'es-errors': [ '1.3.0' ],
+15 silly audit   'es-object-atoms': [ '1.1.1' ],
+15 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+15 silly audit   'escape-html': [ '1.0.3' ],
+15 silly audit   etag: [ '1.8.1' ],
+15 silly audit   execa: [ '5.1.1' ],
+15 silly audit   'expand-template': [ '2.0.3' ],
+15 silly audit   express: [ '4.22.1' ],
+15 silly audit   'express-rate-limit': [ '7.5.1' ],
+15 silly audit   'express-session': [ '1.18.2' ],
+15 silly audit   'express-validator': [ '7.3.1' ],
+15 silly audit   extend: [ '3.0.2' ],
+15 silly audit   fflate: [ '0.8.2' ],
+15 silly audit   'file-type': [ '20.5.0' ],
+15 silly audit   'file-uri-to-path': [ '1.0.0' ],
+15 silly audit   filelist: [ '1.0.4' ],
+15 silly audit   'fill-range': [ '7.1.1' ],
+15 silly audit   finalhandler: [ '1.3.2' ],
+15 silly audit   'fluent-ffmpeg': [ '2.1.3' ],
+15 silly audit   'follow-redirects': [ '1.15.11' ],
+15 silly audit   'form-data': [ '4.0.5' ],
+15 silly audit   forwarded: [ '0.2.0' ],
+15 silly audit   fresh: [ '0.5.2' ],
+15 silly audit   'fs-constants': [ '1.0.0' ],
+15 silly audit   'fs-extra': [ '11.3.3' ],
+15 silly audit   'fs-minipass': [ '2.1.0' ],
+15 silly audit   'fs.realpath': [ '1.0.0' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   'function-bind': [ '1.1.2' ],
+15 silly audit   gauge: [ '3.0.2', '4.0.4' ],
+15 silly audit   gaxios: [ '6.7.1' ],
+15 silly audit   'https-proxy-agent': [ '7.0.6', '5.0.1' ],
+15 silly audit   uuid: [ '9.0.1', '11.1.0' ],
+15 silly audit   'gcp-metadata': [ '6.1.1' ],
+15 silly audit   'generic-pool': [ '3.9.0' ],
+15 silly audit   'get-intrinsic': [ '1.3.0' ],
+15 silly audit   'get-proto': [ '1.0.1' ],
+15 silly audit   'get-stream': [ '6.0.1' ],
+15 silly audit   'get-video-duration': [ '4.1.0' ],
+15 silly audit   'github-from-package': [ '0.0.0' ],
+15 silly audit   glob: [ '7.2.3' ],
+15 silly audit   'glob-parent': [ '5.1.2' ],
+15 silly audit   minimatch: [ '3.1.2', '5.1.6' ],
+15 silly audit   global: [ '4.4.0' ],
+15 silly audit   'google-auth-library': [ '9.15.1' ],
+15 silly audit   'google-logging-utils': [ '0.0.2' ],
+15 silly audit   googleapis: [ '146.0.0' ],
+15 silly audit   'googleapis-common': [ '7.2.0' ],
+15 silly audit   gopd: [ '1.2.0' ],
+15 silly audit   'graceful-fs': [ '4.2.11' ],
+15 silly audit   gtoken: [ '7.1.0' ],
+15 silly audit   'has-flag': [ '3.0.0' ],
+15 silly audit   'has-symbols': [ '1.1.0' ],
+15 silly audit   'has-tostringtag': [ '1.0.2' ],
+15 silly audit   'has-unicode': [ '2.0.1' ],
+15 silly audit   hasown: [ '2.0.2' ],
+15 silly audit   'http-cache-semantics': [ '4.2.0' ],
+15 silly audit   'http-errors': [ '2.0.1' ],
+15 silly audit   'http-proxy-agent': [ '4.0.1' ],
+15 silly audit   'human-signals': [ '2.1.0' ],
+15 silly audit   'humanize-ms': [ '1.2.1' ],
+15 silly audit   ieee754: [ '1.2.1' ],
+15 silly audit   'ignore-by-default': [ '1.0.1' ],
+15 silly audit   imurmurhash: [ '0.1.4' ],
+15 silly audit   'indent-string': [ '4.0.0' ],
+15 silly audit   'infer-owner': [ '1.0.4' ],
+15 silly audit   inflight: [ '1.0.6' ],
+15 silly audit   inherits: [ '2.0.4' ],
+15 silly audit   ini: [ '1.3.8' ],
+15 silly audit   ioredis: [ '5.9.1' ],
+15 silly audit   'ip-address': [ '10.1.0' ],
+15 silly audit   'ipaddr.js': [ '1.9.1' ],
+15 silly audit   'is-binary-path': [ '2.1.0' ],
+15 silly audit   'is-extglob': [ '2.1.1' ],
+15 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+15 silly audit   'is-function': [ '1.0.2' ],
+15 silly audit   'is-glob': [ '4.0.3' ],
+15 silly audit   'is-lambda': [ '1.0.1' ],
+15 silly audit   'is-number': [ '7.0.0' ],
+15 silly audit   'is-stream': [ '2.0.1' ],
+15 silly audit   isarray: [ '1.0.0' ],
+15 silly audit   isexe: [ '2.0.0' ],
+15 silly audit   jake: [ '10.9.4' ],
+15 silly audit   'js-base64': [ '3.7.8' ],
+15 silly audit   'json-bigint': [ '1.0.0' ],
+15 silly audit   jsonfile: [ '6.2.0' ],
+15 silly audit   jwa: [ '2.0.1' ],
+15 silly audit   jws: [ '4.0.1' ],
+15 silly audit   lodash: [ '4.17.21' ],
+15 silly audit   'lodash._baseiteratee': [ '4.7.0' ],
+15 silly audit   'lodash._basetostring': [ '4.12.0' ],
+15 silly audit   'lodash._baseuniq': [ '4.6.0' ],
+15 silly audit   'lodash._createset': [ '4.0.3' ],
+15 silly audit   'lodash._root': [ '3.0.1' ],
+15 silly audit   'lodash._stringtopath': [ '4.8.0' ],
+15 silly audit   'lodash.defaults': [ '4.2.0' ],
+15 silly audit   'lodash.isarguments': [ '3.1.0' ],
+15 silly audit   'lodash.throttle': [ '4.1.1' ],
+15 silly audit   'lodash.uniqby': [ '4.5.0' ],
+15 silly audit   'lru-cache': [ '6.0.0' ],
+15 silly audit   'm3u8-parser': [ '7.2.0' ],
+15 silly audit   'make-dir': [ '3.1.0' ],
+15 silly audit   semver: [ '6.3.1', '7.7.3' ],
+15 silly audit   'make-fetch-happen': [ '9.1.0' ],
+15 silly audit   'math-intrinsics': [ '1.1.0' ],
+15 silly audit   'media-typer': [ '0.3.0' ],
+15 silly audit   megajs: [ '1.3.9' ],
+15 silly audit   'merge-descriptors': [ '1.0.3' ],
+15 silly audit   'merge-stream': [ '2.0.0' ],
+15 silly audit   methods: [ '1.1.2' ],
+15 silly audit   mime: [ '1.6.0' ],
+15 silly audit   'mime-db': [ '1.52.0' ],
+15 silly audit   'mime-types': [ '2.1.35' ],
+15 silly audit   'mimic-fn': [ '2.1.0' ],
+15 silly audit   'mimic-response': [ '3.1.0' ],
+15 silly audit   'min-document': [ '2.19.2' ],
+15 silly audit   minimist: [ '1.2.8' ],
+15 silly audit   minipass: [ '3.3.6', '5.0.0' ],
+15 silly audit   'minipass-collect': [ '1.0.2' ],
+15 silly audit   'minipass-fetch': [ '1.4.1' ],
+15 silly audit   'minipass-flush': [ '1.0.5' ],
+15 silly audit   'minipass-pipeline': [ '1.2.4' ],
+15 silly audit   'minipass-sized': [ '1.0.3' ],
+15 silly audit   minizlib: [ '2.1.2' ],
+15 silly audit   'mkdirp-classic': [ '0.5.3' ],
+15 silly audit   'mpd-parser': [ '1.3.1' ],
+15 silly audit   multer: [ '1.4.5-lts.2' ],
+15 silly audit   'mux.js': [ '7.1.0' ],
+15 silly audit   'napi-build-utils': [ '2.0.0' ],
+15 silly audit   negotiator: [ '0.6.3' ],
+15 silly audit   'node-abi': [ '3.85.0' ],
+15 silly audit   'node-addon-api': [ '5.1.0', '7.1.1' ],
+15 silly audit   'node-fetch': [ '2.7.0' ],
+15 silly audit   'node-gyp': [ '8.4.1' ],
+15 silly audit   npmlog: [ '6.0.2', '5.0.1' ],
+15 silly audit   nodemon: [ '3.1.11' ],
+15 silly audit   nopt: [ '5.0.0' ],
+15 silly audit   'normalize-path': [ '3.0.0' ],
+15 silly audit   'npm-run-path': [ '4.0.1' ],
+15 silly audit   'object-assign': [ '4.1.1' ],
+15 silly audit   'object-inspect': [ '1.13.4' ],
+15 silly audit   'on-finished': [ '2.4.1' ],
+15 silly audit   'on-headers': [ '1.1.0' ],
+15 silly audit   once: [ '1.4.0' ],
+15 silly audit   onetime: [ '5.1.2' ],
+15 silly audit   'os-utils': [ '0.0.14' ],
+15 silly audit   'p-map': [ '4.0.0' ],
+15 silly audit   parseurl: [ '1.3.3' ],
+15 silly audit   'path-is-absolute': [ '1.0.1' ],
+15 silly audit   'path-key': [ '3.1.1' ],
+15 silly audit   'path-to-regexp': [ '0.1.12' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   picomatch: [ '2.3.1' ],
+15 silly audit   pkcs7: [ '1.0.4' ],
+15 silly audit   'prebuild-install': [ '7.1.3' ],
+15 silly audit   process: [ '0.11.10' ],
+15 silly audit   'process-nextick-args': [ '2.0.1' ],
+15 silly audit   'promise-inflight': [ '1.0.1' ],
+15 silly audit   'promise-retry': [ '2.0.1' ],
+15 silly audit   'proper-lockfile': [ '4.1.2' ],
+15 silly audit   'proxy-addr': [ '2.0.7' ],
+15 silly audit   'proxy-from-env': [ '1.1.0' ],
+15 silly audit   'pstree.remy': [ '1.1.8' ],
+15 silly audit   pump: [ '3.0.3' ],
+15 silly audit   pumpify: [ '2.0.1' ],
+15 silly audit   qs: [ '6.14.1' ],
+15 silly audit   querystringify: [ '2.2.0' ],
+15 silly audit   'random-bytes': [ '1.0.0' ],
+15 silly audit   'range-parser': [ '1.2.1' ],
+15 silly audit   'raw-body': [ '2.5.3' ],
+15 silly audit   rc: [ '1.2.8' ],
+15 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+15 silly audit   readdirp: [ '3.6.0' ],
+15 silly audit   'redis-errors': [ '1.2.0' ],
+15 silly audit   'redis-parser': [ '3.0.0' ],
+15 silly audit   'requires-port': [ '1.0.0' ],
+15 silly audit   retry: [ '0.12.0' ],
+15 silly audit   rimraf: [ '3.0.2' ],
+15 silly audit   rndm: [ '1.2.0' ],
+15 silly audit   'safer-buffer': [ '2.1.2' ],
+15 silly audit   send: [ '0.19.2' ],
+15 silly audit   'serve-static': [ '1.16.3' ],
+15 silly audit   'set-blocking': [ '2.0.0' ],
+15 silly audit   'set-cookie-parser': [ '2.7.2' ],
+15 silly audit   setprototypeof: [ '1.2.0' ],
+15 silly audit   'shebang-command': [ '2.0.0' ],
+15 silly audit   'shebang-regex': [ '3.0.0' ],
+15 silly audit   'side-channel': [ '1.1.0' ],
+15 silly audit   'side-channel-list': [ '1.0.0' ],
+15 silly audit   'side-channel-map': [ '1.0.1' ],
+15 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+15 silly audit   'signal-exit': [ '3.0.7' ],
+15 silly audit   'simple-concat': [ '1.0.1' ],
+15 silly audit   'simple-get': [ '4.0.1' ],
+15 silly audit   'simple-update-notifier': [ '2.0.0' ],
+15 silly audit   'smart-buffer': [ '4.2.0' ],
+15 silly audit   socks: [ '2.8.7' ],
+15 silly audit   'socks-proxy-agent': [ '6.2.1' ],
+15 silly audit   sqlite3: [ '5.1.7' ],
+15 silly audit   srvx: [ '0.8.16' ],
+15 silly audit   ssri: [ '8.0.1' ],
+15 silly audit   'standard-as-callback': [ '2.1.0' ],
+15 silly audit   statuses: [ '2.0.2' ],
+15 silly audit   'stream-shift': [ '1.0.3' ],
+15 silly audit   'stream-skip': [ '1.0.3' ],
+15 silly audit   streamsearch: [ '1.1.0' ],
+15 silly audit   string_decoder: [ '1.1.1' ],
+15 silly audit   'string-width': [ '4.2.3' ],
+15 silly audit   'strip-ansi': [ '6.0.1' ],
+15 silly audit   'strip-final-newline': [ '2.0.0' ],
+15 silly audit   'strip-json-comments': [ '2.0.1' ],
+15 silly audit   strtok3: [ '10.3.4' ],
+15 silly audit   'supports-color': [ '5.5.0' ],
+15 silly audit   systeminformation: [ '5.30.2' ],
+15 silly audit   tar: [ '6.2.1' ],
+15 silly audit   'tar-fs': [ '2.1.4' ],
+15 silly audit   'tar-stream': [ '2.2.0' ],
+15 silly audit   'to-regex-range': [ '5.0.1' ],
+15 silly audit   toidentifier: [ '1.0.1' ],
+15 silly audit   'token-types': [ '6.1.2' ],
+15 silly audit   touch: [ '3.1.1' ],
+15 silly audit   tr46: [ '0.0.3' ],
+15 silly audit   tsscmp: [ '1.0.6' ],
+15 silly audit   'tunnel-agent': [ '0.6.0' ],
+15 silly audit   'tus-js-client': [ '4.3.1' ],
+15 silly audit   'type-is': [ '1.6.18' ],
+15 silly audit   typedarray: [ '0.0.6' ],
+15 silly audit   'uid-safe': [ '2.1.5' ],
+15 silly audit   'uint8array-extras': [ '1.5.0' ],
+15 silly audit   undefsafe: [ '2.0.5' ],
+15 silly audit   'unique-filename': [ '1.1.1' ],
+15 silly audit   'unique-slug': [ '2.0.2' ],
+15 silly audit   universalify: [ '2.0.1' ],
+15 silly audit   unpipe: [ '1.0.0' ],
+15 silly audit   'url-parse': [ '1.5.10' ],
+15 silly audit   'url-template': [ '2.0.8' ],
+15 silly audit   'util-deprecate': [ '1.0.2' ],
+15 silly audit   'utils-merge': [ '1.0.1' ],
+15 silly audit   validator: [ '13.15.26' ],
+15 silly audit   vary: [ '1.1.2' ],
+15 silly audit   'video.js': [ '8.23.4' ],
+15 silly audit   'videojs-contrib-quality-levels': [ '4.1.0' ],
+15 silly audit   'videojs-font': [ '4.2.0' ],
+15 silly audit   'videojs-vtt.js': [ '0.15.5' ],
+15 silly audit   'webidl-conversions': [ '3.0.1' ],
+15 silly audit   'whatwg-url': [ '5.0.0' ],
+15 silly audit   'wide-align': [ '1.1.5' ],
+15 silly audit   wrappy: [ '1.0.2' ],
+15 silly audit   xtend: [ '4.0.2' ],
+15 silly audit   yallist: [ '4.0.0' ]
+15 silly audit }
+16 verbose reify failed optional dependency /root/streamflow/node_modules/fsevents
+17 silly reify mark deleted [ '/root/streamflow/node_modules/fsevents' ]
+18 verbose reify failed optional dependency /root/streamflow/node_modules/@ffprobe-installer/win32-x64
+19 silly reify mark deleted [ '/root/streamflow/node_modules/@ffprobe-installer/win32-x64' ]
+20 verbose reify failed optional dependency /root/streamflow/node_modules/@ffprobe-installer/win32-ia32
+21 silly reify mark deleted [ '/root/streamflow/node_modules/@ffprobe-installer/win32-ia32' ]
+22 verbose reify failed optional dependency /root/streamflow/node_modules/@ffprobe-installer/linux-ia32
+23 silly reify mark deleted [ '/root/streamflow/node_modules/@ffprobe-installer/linux-ia32' ]
+24 verbose reify failed optional dependency /root/streamflow/node_modules/@ffprobe-installer/linux-arm64
+25 silly reify mark deleted [ '/root/streamflow/node_modules/@ffprobe-installer/linux-arm64' ]
+26 verbose reify failed optional dependency /root/streamflow/node_modules/@ffprobe-installer/linux-arm
+27 silly reify mark deleted [ '/root/streamflow/node_modules/@ffprobe-installer/linux-arm' ]
+28 verbose reify failed optional dependency /root/streamflow/node_modules/@ffprobe-installer/darwin-x64
+29 silly reify mark deleted [ '/root/streamflow/node_modules/@ffprobe-installer/darwin-x64' ]
+30 verbose reify failed optional dependency /root/streamflow/node_modules/@ffprobe-installer/darwin-arm64
+31 silly reify mark deleted [ '/root/streamflow/node_modules/@ffprobe-installer/darwin-arm64' ]
+32 verbose reify failed optional dependency /root/streamflow/node_modules/@ffmpeg-installer/win32-x64
+33 silly reify mark deleted [ '/root/streamflow/node_modules/@ffmpeg-installer/win32-x64' ]
+34 verbose reify failed optional dependency /root/streamflow/node_modules/@ffmpeg-installer/win32-ia32
+35 silly reify mark deleted [ '/root/streamflow/node_modules/@ffmpeg-installer/win32-ia32' ]
+36 verbose reify failed optional dependency /root/streamflow/node_modules/@ffmpeg-installer/linux-ia32
+37 silly reify mark deleted [ '/root/streamflow/node_modules/@ffmpeg-installer/linux-ia32' ]
+38 verbose reify failed optional dependency /root/streamflow/node_modules/@ffmpeg-installer/linux-arm64
+39 silly reify mark deleted [ '/root/streamflow/node_modules/@ffmpeg-installer/linux-arm64' ]
+40 verbose reify failed optional dependency /root/streamflow/node_modules/@ffmpeg-installer/linux-arm
+41 silly reify mark deleted [ '/root/streamflow/node_modules/@ffmpeg-installer/linux-arm' ]
+42 verbose reify failed optional dependency /root/streamflow/node_modules/@ffmpeg-installer/darwin-x64
+43 silly reify mark deleted [ '/root/streamflow/node_modules/@ffmpeg-installer/darwin-x64' ]
+44 verbose reify failed optional dependency /root/streamflow/node_modules/@ffmpeg-installer/darwin-arm64
+45 silly reify mark deleted [ '/root/streamflow/node_modules/@ffmpeg-installer/darwin-arm64' ]
+46 verbose reify failed optional dependency /root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/win32-x64
+47 silly reify mark deleted [
+47 silly reify   '/root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/win32-x64'
+47 silly reify ]
+48 verbose reify failed optional dependency /root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/win32-ia32
+49 silly reify mark deleted [
+49 silly reify   '/root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/win32-ia32'
+49 silly reify ]
+50 verbose reify failed optional dependency /root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/linux-ia32
+51 silly reify mark deleted [
+51 silly reify   '/root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/linux-ia32'
+51 silly reify ]
+52 verbose reify failed optional dependency /root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/linux-arm64
+53 silly reify mark deleted [
+53 silly reify   '/root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/linux-arm64'
+53 silly reify ]
+54 verbose reify failed optional dependency /root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/linux-arm
+55 silly reify mark deleted [
+55 silly reify   '/root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/linux-arm'
+55 silly reify ]
+56 verbose reify failed optional dependency /root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/darwin-x64
+57 silly reify mark deleted [
+57 silly reify   '/root/streamflow/node_modules/get-video-duration/node_modules/@ffprobe-installer/darwin-x64'
+57 silly reify ]
+58 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 408ms
+59 silly audit report {}
+60 silly ADD
+61 silly ADD
+62 silly ADD
+63 silly ADD
+64 silly ADD
+65 silly ADD
+66 silly ADD
+67 silly ADD
+68 silly ADD
+69 silly ADD
+70 silly ADD
+71 silly ADD
+72 silly ADD
+73 silly ADD
+74 silly ADD
+75 silly ADD
+76 silly ADD
+77 silly ADD
+78 silly ADD
+79 silly ADD
+80 silly ADD
+81 verbose cwd /root/streamflow
+82 verbose os Linux 5.15.0-164-generic
+83 verbose node v22.21.0
+84 verbose npm  v10.9.4
+85 verbose exit 0
+86 info ok
